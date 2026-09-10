@@ -10,6 +10,7 @@ brew install iamnikolie/tap/dziga        # video → LLM-readable context
 brew install iamnikolie/tap/fibery-cli   # Fibery from the terminal (binary: fibery)
 brew install iamnikolie/tap/gitlab-cli   # GitLab from the terminal (binary: gl)
 brew install iamnikolie/tap/slack-cli    # Slack from the terminal (binary: slk)
+brew install iamnikolie/tap/svidoq       # read-only SQL for agents
 ```
 
 The `brew trust` step is not optional on Homebrew 6 — without it `brew tap`
@@ -27,5 +28,6 @@ automatically. Do not edit them by hand — the next release overwrites them.
 | `fibery-cli` | `fibery` | [iamnikolie/fibery-cli](https://github.com/iamnikolie/fibery-cli) |
 | `gitlab-cli` | `gl` | [iamnikolie/gitlab-cli](https://github.com/iamnikolie/gitlab-cli) |
 | `slack-cli` | `slk` | [iamnikolie/slack-cli](https://github.com/iamnikolie/slack-cli) |
+| `svidoq` | `svidoq` | [iamnikolie/svidoq](https://github.com/iamnikolie/svidoq) |
 
 All MIT.
