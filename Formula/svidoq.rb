@@ -1,28 +1,28 @@
 class Svidoq < Formula
   desc "Read-only SQL for agents — parsed allowlist plus a read-only transaction"
   homepage "https://github.com/iamnikolie/svidoq"
-  version "0.1.2"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/iamnikolie/svidoq/releases/download/v0.1.2/svidoq_0.1.2_darwin_arm64.tar.gz"
-      sha256 "5b1bb9910691be354e8a5b35eb92697161a9a7dc80eb36fb78ea78fc0e81be13"
+      url "https://github.com/iamnikolie/svidoq/releases/download/v0.2.0/svidoq_0.2.0_darwin_arm64.tar.gz"
+      sha256 "3b98b3adb46dbe664e08b89d650194b0a91cbddd5b84c25a44d447c2c496ba5e"
     end
     on_intel do
-      url "https://github.com/iamnikolie/svidoq/releases/download/v0.1.2/svidoq_0.1.2_darwin_amd64.tar.gz"
-      sha256 "6eab6402d3725b271f4b370211f4b7764716a309c494242805da9b084a01b642"
+      url "https://github.com/iamnikolie/svidoq/releases/download/v0.2.0/svidoq_0.2.0_darwin_amd64.tar.gz"
+      sha256 "8f8c86489bd377a02b28f0a10fef4a8af56853b16ab1789cef07e9dd2ad61a28"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/iamnikolie/svidoq/releases/download/v0.1.2/svidoq_0.1.2_linux_arm64.tar.gz"
-      sha256 "d89aca18e508e79b1d39ca8ee740e8c1e2f1bf4612bc68a29fc26c94bc57b5aa"
+      url "https://github.com/iamnikolie/svidoq/releases/download/v0.2.0/svidoq_0.2.0_linux_arm64.tar.gz"
+      sha256 "07edae13f44ef167125cc919f8cbda3d8d843aa56e04d03225f48458bdd4c6e2"
     end
     on_intel do
-      url "https://github.com/iamnikolie/svidoq/releases/download/v0.1.2/svidoq_0.1.2_linux_amd64.tar.gz"
-      sha256 "120a68ac6664d13921647da573488f23e0206da59460e7606c200e72107bdc85"
+      url "https://github.com/iamnikolie/svidoq/releases/download/v0.2.0/svidoq_0.2.0_linux_amd64.tar.gz"
+      sha256 "ddad7ce178f1375095b6dee1ba573834545b13ff56a63d66b1ff530a7d602109"
     end
   end
 
