@@ -7,6 +7,7 @@ brew trust iamnikolie/tap   # Homebrew 6 refuses to load third-party taps until 
 brew tap iamnikolie/tap
 
 brew install iamnikolie/tap/dziga        # video → LLM-readable context
+brew install iamnikolie/tap/exa-cli      # Exa web search from the terminal (binary: exa)
 brew install iamnikolie/tap/fibery-cli   # Fibery from the terminal (binary: fibery)
 brew install iamnikolie/tap/gitlab-cli   # GitLab from the terminal (binary: gl)
 brew install iamnikolie/tap/slack-cli    # Slack from the terminal (binary: slk)
@@ -25,6 +26,7 @@ automatically. Do not edit them by hand — the next release overwrites them.
 | Formula | Binary | Source |
 |---|---|---|
 | `dziga` | `dziga` | [iamnikolie/dziga](https://github.com/iamnikolie/dziga) |
+| `exa-cli` | `exa` | [iamnikolie/exa-cli](https://github.com/iamnikolie/exa-cli) |
 | `fibery-cli` | `fibery` | [iamnikolie/fibery-cli](https://github.com/iamnikolie/fibery-cli) |
 | `gitlab-cli` | `gl` | [iamnikolie/gitlab-cli](https://github.com/iamnikolie/gitlab-cli) |
 | `slack-cli` | `slk` | [iamnikolie/slack-cli](https://github.com/iamnikolie/slack-cli) |
