@@ -10,6 +10,7 @@ brew install iamnikolie/tap/dziga        # video → LLM-readable context
 brew install iamnikolie/tap/exa-cli      # Exa web search from the terminal (binary: exa)
 brew install iamnikolie/tap/fibery-cli   # Fibery from the terminal (binary: fibery)
 brew install iamnikolie/tap/gitlab-cli   # GitLab from the terminal (binary: gl)
+brew install iamnikolie/tap/mcpcli       # any remote MCP server as a CLI
 brew install iamnikolie/tap/slack-cli    # Slack from the terminal (binary: slk)
 brew install iamnikolie/tap/svidoq       # read-only SQL for agents
 brew install iamnikolie/tap/wispr-cli    # Wispr Flow dictations & meeting notes (binary: wispr)
@@ -30,6 +31,7 @@ automatically. Do not edit them by hand — the next release overwrites them.
 | `exa-cli` | `exa` | [iamnikolie/exa-cli](https://github.com/iamnikolie/exa-cli) |
 | `fibery-cli` | `fibery` | [iamnikolie/fibery-cli](https://github.com/iamnikolie/fibery-cli) |
 | `gitlab-cli` | `gl` | [iamnikolie/gitlab-cli](https://github.com/iamnikolie/gitlab-cli) |
+| `mcpcli` | `mcpcli` | [iamnikolie/mcpcli](https://github.com/iamnikolie/mcpcli) |
 | `slack-cli` | `slk` | [iamnikolie/slack-cli](https://github.com/iamnikolie/slack-cli) |
 | `svidoq` | `svidoq` | [iamnikolie/svidoq](https://github.com/iamnikolie/svidoq) |
 | `wispr-cli` | `wispr` | [iamnikolie/wispr-cli](https://github.com/iamnikolie/wispr-cli) |
