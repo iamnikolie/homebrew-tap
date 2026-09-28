@@ -1,28 +1,28 @@
 class Mcpcli < Formula
   desc "Any remote MCP server as a CLI, with OAuth profiles per account"
   homepage "https://github.com/iamnikolie/mcpcli"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/iamnikolie/mcpcli/releases/download/v0.1.0/mcpcli_0.1.0_darwin_arm64.tar.gz"
-      sha256 "900e84275a73d71836470d0e74e6eb91ec2f62509b09be5a04b081fea5fc7b75"
+      url "https://github.com/iamnikolie/mcpcli/releases/download/v0.2.0/mcpcli_0.2.0_darwin_arm64.tar.gz"
+      sha256 "6893f1bc256697e765423a6ab62d53e0b43bdb5dde1dcce179070e144d8ca46a"
     end
     on_intel do
-      url "https://github.com/iamnikolie/mcpcli/releases/download/v0.1.0/mcpcli_0.1.0_darwin_amd64.tar.gz"
-      sha256 "70712ab8cde148183dda0ad1e0c24c2911d30f1d13ec2abd99a48db90c1800fa"
+      url "https://github.com/iamnikolie/mcpcli/releases/download/v0.2.0/mcpcli_0.2.0_darwin_amd64.tar.gz"
+      sha256 "2e5e3c5bea2fb27b123385331ec24d7966a1177d0b17a1598f85c3da528400d9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/iamnikolie/mcpcli/releases/download/v0.1.0/mcpcli_0.1.0_linux_arm64.tar.gz"
-      sha256 "20706f73e7a7045e79cabbd70f2c453a05579f598dac5c8fa0af67533e50aef6"
+      url "https://github.com/iamnikolie/mcpcli/releases/download/v0.2.0/mcpcli_0.2.0_linux_arm64.tar.gz"
+      sha256 "1dce4cac4917e9af0081de1008487ca4773e8e7e930b8429c0cec15edd93c9fe"
     end
     on_intel do
-      url "https://github.com/iamnikolie/mcpcli/releases/download/v0.1.0/mcpcli_0.1.0_linux_amd64.tar.gz"
-      sha256 "27d2656f9b7e52fe72f686312a9693fac30349d7110f287f585ff6b54f07baa3"
+      url "https://github.com/iamnikolie/mcpcli/releases/download/v0.2.0/mcpcli_0.2.0_linux_amd64.tar.gz"
+      sha256 "93a1384571812a1aeae209d3df0b885c7ed47f9b0e95645aa4c2f05d5557f934"
     end
   end
 
