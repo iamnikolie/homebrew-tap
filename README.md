@@ -12,6 +12,7 @@ brew install iamnikolie/tap/fibery-cli   # Fibery from the terminal (binary: fib
 brew install iamnikolie/tap/gitlab-cli   # GitLab from the terminal (binary: gl)
 brew install iamnikolie/tap/slack-cli    # Slack from the terminal (binary: slk)
 brew install iamnikolie/tap/svidoq       # read-only SQL for agents
+brew install iamnikolie/tap/wispr-cli    # Wispr Flow dictations & meeting notes (binary: wispr)
 ```
 
 The `brew trust` step is not optional on Homebrew 6 — without it `brew tap`
@@ -31,5 +32,6 @@ automatically. Do not edit them by hand — the next release overwrites them.
 | `gitlab-cli` | `gl` | [iamnikolie/gitlab-cli](https://github.com/iamnikolie/gitlab-cli) |
 | `slack-cli` | `slk` | [iamnikolie/slack-cli](https://github.com/iamnikolie/slack-cli) |
 | `svidoq` | `svidoq` | [iamnikolie/svidoq](https://github.com/iamnikolie/svidoq) |
+| `wispr-cli` | `wispr` | [iamnikolie/wispr-cli](https://github.com/iamnikolie/wispr-cli) |
 
 All MIT.
