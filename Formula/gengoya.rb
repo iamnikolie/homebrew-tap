@@ -26,10 +26,15 @@ class Gengoya < Formula
     end
   end
 
-  depends_on "ffmpeg" => :recommended
-
   def install
     bin.install "gengoya"
+  end
+
+  def caveats
+    <<~EOS
+      Video poster frames (the PNG contact sheet next to each clip) need ffmpeg:
+        brew install ffmpeg
+    EOS
   end
 
   test do
