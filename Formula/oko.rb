@@ -1,28 +1,28 @@
 class Oko < Formula
   desc "Browser CLI for coding agents, driving a dedicated Chrome over CDP"
   homepage "https://github.com/iamnikolie/oko"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/iamnikolie/oko/releases/download/v0.1.0/oko_0.1.0_darwin_arm64.tar.gz"
-      sha256 "fb777b2b548011d556c434d24850f3d0a19eb6e2c35ff0b0e3c3fa3a24439036"
+      url "https://github.com/iamnikolie/oko/releases/download/v0.2.0/oko_0.2.0_darwin_arm64.tar.gz"
+      sha256 "6cc92951b12aaaa1294dc4f1e0c396217ddcaab728402957df2301fd50771220"
     end
     on_intel do
-      url "https://github.com/iamnikolie/oko/releases/download/v0.1.0/oko_0.1.0_darwin_amd64.tar.gz"
-      sha256 "6d6ef59f1d4afcf4fe77249749e61d223d9b7757813f80050171c7a7e237b683"
+      url "https://github.com/iamnikolie/oko/releases/download/v0.2.0/oko_0.2.0_darwin_amd64.tar.gz"
+      sha256 "a0483a77e3f751173d063f78040cf74b916692efd8c4696e2b16aa4ed39f0eb7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/iamnikolie/oko/releases/download/v0.1.0/oko_0.1.0_linux_arm64.tar.gz"
-      sha256 "0a1ec8dd409fc4c9bf779f3a588d9a6ee514987d092d7f4a5114c7c6a356dc70"
+      url "https://github.com/iamnikolie/oko/releases/download/v0.2.0/oko_0.2.0_linux_arm64.tar.gz"
+      sha256 "55e851c27e32a7e5a5506de38142eb36e1f598c100fb00a5ef19c53dbeb27c92"
     end
     on_intel do
-      url "https://github.com/iamnikolie/oko/releases/download/v0.1.0/oko_0.1.0_linux_amd64.tar.gz"
-      sha256 "ff1c3f1acc70bc47fdf7ee1ac2471628f058da6c7cf56a1fc1e9c6999e5b5c56"
+      url "https://github.com/iamnikolie/oko/releases/download/v0.2.0/oko_0.2.0_linux_amd64.tar.gz"
+      sha256 "50a628191d1ce4a77bfe2d5960dba45a8e4a62459185a1cefd7069751fdf0b00"
     end
   end
 
