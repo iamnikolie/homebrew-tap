@@ -1,28 +1,28 @@
 class SlackCli < Formula
   desc "Agent-facing Slack CLI with token-lean output"
   homepage "https://github.com/iamnikolie/slack-cli"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/iamnikolie/slack-cli/releases/download/v0.1.0/slack-cli_0.1.0_darwin_arm64.tar.gz"
-      sha256 "c2001bd4a12bd83cb5b4bd4bab282ac98796260b97afc8b942da9014cf3f97de"
+      url "https://github.com/iamnikolie/slack-cli/releases/download/v0.1.1/slack-cli_0.1.1_darwin_arm64.tar.gz"
+      sha256 "662ebb270ca9a1ca881f9e4037de2eda9aff9e5698e8f682aebb757377c80e33"
     end
     on_intel do
-      url "https://github.com/iamnikolie/slack-cli/releases/download/v0.1.0/slack-cli_0.1.0_darwin_amd64.tar.gz"
-      sha256 "77200455422f7acfebe21d4cf37d23386ef799311df484f8f22d6f7dd96b2104"
+      url "https://github.com/iamnikolie/slack-cli/releases/download/v0.1.1/slack-cli_0.1.1_darwin_amd64.tar.gz"
+      sha256 "fd896ee091b5b75873490066ba2de07aee1b068171f910c69be09f23e390e658"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/iamnikolie/slack-cli/releases/download/v0.1.0/slack-cli_0.1.0_linux_arm64.tar.gz"
-      sha256 "699760e7f600fbb0d894dd8e58fa39f212a3e4ad1f36b4090324a1d47ffe8d1b"
+      url "https://github.com/iamnikolie/slack-cli/releases/download/v0.1.1/slack-cli_0.1.1_linux_arm64.tar.gz"
+      sha256 "e361850a72ce2d640e707cf133833cc328053c7a83a5f7cba539488ae134ff8f"
     end
     on_intel do
-      url "https://github.com/iamnikolie/slack-cli/releases/download/v0.1.0/slack-cli_0.1.0_linux_amd64.tar.gz"
-      sha256 "9b11c910abaa2a638b132e927a683a5a83f8ae45d2ddd29219ecd2bb694b4c4a"
+      url "https://github.com/iamnikolie/slack-cli/releases/download/v0.1.1/slack-cli_0.1.1_linux_amd64.tar.gz"
+      sha256 "c1047888eeff212663cb23e288570d885944eb906c70ab47a904ecc46029ec0b"
     end
   end
 
