@@ -8,6 +8,7 @@ brew tap iamnikolie/tap
 
 brew install iamnikolie/tap/dziga        # video → LLM-readable context
 brew install iamnikolie/tap/exa-cli      # Exa web search from the terminal (binary: exa)
+brew install iamnikolie/tap/oko          # browser CLI for coding agents (Chrome over CDP)
 brew install iamnikolie/tap/fibery-cli   # Fibery from the terminal (binary: fibery)
 brew install iamnikolie/tap/gitlab-cli   # GitLab from the terminal (binary: gl)
 brew install iamnikolie/tap/mcpcli       # any remote MCP server as a CLI
@@ -29,6 +30,7 @@ automatically. Do not edit them by hand — the next release overwrites them.
 |---|---|---|
 | `dziga` | `dziga` | [iamnikolie/dziga](https://github.com/iamnikolie/dziga) |
 | `exa-cli` | `exa` | [iamnikolie/exa-cli](https://github.com/iamnikolie/exa-cli) |
+| `oko` | `oko` | [iamnikolie/oko](https://github.com/iamnikolie/oko) |
 | `fibery-cli` | `fibery` | [iamnikolie/fibery-cli](https://github.com/iamnikolie/fibery-cli) |
 | `gitlab-cli` | `gl` | [iamnikolie/gitlab-cli](https://github.com/iamnikolie/gitlab-cli) |
 | `mcpcli` | `mcpcli` | [iamnikolie/mcpcli](https://github.com/iamnikolie/mcpcli) |
