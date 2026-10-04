@@ -1,28 +1,28 @@
 class Gengoya < Formula
   desc "Image, video, music and speech generation CLI for coding agents"
   homepage "https://github.com/iamnikolie/gengoya"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/iamnikolie/gengoya/releases/download/v0.1.1/gengoya_0.1.1_darwin_arm64.tar.gz"
-      sha256 "ce754dbec1f95414e9277b08f21d5a787ca78829ef0933582f39bcd86cc9f39a"
+      url "https://github.com/iamnikolie/gengoya/releases/download/v0.1.2/gengoya_0.1.2_darwin_arm64.tar.gz"
+      sha256 "a1d19f013f2f4f9bfc08a34b660dec5a0c3df4ff12a50425ace1f9fab3dabbba"
     end
     on_intel do
-      url "https://github.com/iamnikolie/gengoya/releases/download/v0.1.1/gengoya_0.1.1_darwin_amd64.tar.gz"
-      sha256 "0ba1218e926b422fdc01080737d792ae0f43804ee0358b1dad0e68f0b47388fc"
+      url "https://github.com/iamnikolie/gengoya/releases/download/v0.1.2/gengoya_0.1.2_darwin_amd64.tar.gz"
+      sha256 "fb212323e55cbdadf36d73a6b088896114a352447c4c679886b77bdaf4453031"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/iamnikolie/gengoya/releases/download/v0.1.1/gengoya_0.1.1_linux_arm64.tar.gz"
-      sha256 "0b8825500bfa6ec0561553a3986f23da29c336d89bc05d0328d6a7ecaf96e568"
+      url "https://github.com/iamnikolie/gengoya/releases/download/v0.1.2/gengoya_0.1.2_linux_arm64.tar.gz"
+      sha256 "25b80c2ee6b1a6daa38faf91477a90e0728d39fad560db8613ba8ae719b8ab81"
     end
     on_intel do
-      url "https://github.com/iamnikolie/gengoya/releases/download/v0.1.1/gengoya_0.1.1_linux_amd64.tar.gz"
-      sha256 "eb09d8faea91500f3b63a9518194865ff72b9771a784a13dff11d76fb6ea298b"
+      url "https://github.com/iamnikolie/gengoya/releases/download/v0.1.2/gengoya_0.1.2_linux_amd64.tar.gz"
+      sha256 "576d7c60e2f60220520f0d4ce41da0496988c686137f3b81c5c80fcd16ca9aa2"
     end
   end
 
