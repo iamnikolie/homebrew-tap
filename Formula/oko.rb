@@ -5,21 +5,21 @@
 class Oko < Formula
   desc "Browser CLI for coding agents, driving a dedicated Chrome over CDP"
   homepage "https://github.com/iamnikolie/oko"
-  version "0.4.0"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/iamnikolie/oko/releases/download/v0.4.0/oko_0.4.0_darwin_amd64.tar.gz"
-      sha256 "9c34ef4cca0fa69650b07de7f97589e02f9cba2df6f3757a6fcb16d5516020cf"
+      url "https://github.com/iamnikolie/oko/releases/download/v0.5.0/oko_0.5.0_darwin_amd64.tar.gz"
+      sha256 "38b2091a33dd325465df579db0a4ea54f873dbc60af48f67028f02e6255b21bf"
 
       define_method(:install) do
         bin.install "oko"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/iamnikolie/oko/releases/download/v0.4.0/oko_0.4.0_darwin_arm64.tar.gz"
-      sha256 "bdbd4c728583aa53309a175b4e1679059cd3fc5b8c85044a508518c4346adafe"
+      url "https://github.com/iamnikolie/oko/releases/download/v0.5.0/oko_0.5.0_darwin_arm64.tar.gz"
+      sha256 "6ad7d157644729555722eb265d4fb568e9bbe2b18c8153805616f9696cfa384f"
 
       define_method(:install) do
         bin.install "oko"
@@ -29,15 +29,15 @@ class Oko < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/iamnikolie/oko/releases/download/v0.4.0/oko_0.4.0_linux_amd64.tar.gz"
-      sha256 "af38fbfb2ed1629a428635f3884a0bae7c9e516dd114f96c5d66b84ec6a7c9a6"
+      url "https://github.com/iamnikolie/oko/releases/download/v0.5.0/oko_0.5.0_linux_amd64.tar.gz"
+      sha256 "b664131fdf8c1b318eceba513def4fc48b6ed26b889bfb5b40c07378571654d0"
       define_method(:install) do
         bin.install "oko"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/iamnikolie/oko/releases/download/v0.4.0/oko_0.4.0_linux_arm64.tar.gz"
-      sha256 "023bd81116c66bc9c13e652592b360562842da2e9ec3aab3a81978c912ada43a"
+      url "https://github.com/iamnikolie/oko/releases/download/v0.5.0/oko_0.5.0_linux_arm64.tar.gz"
+      sha256 "03f6b8e03a215390aa034168dac657072ec405a3a3b087f89fd87faae8364564"
       define_method(:install) do
         bin.install "oko"
       end
