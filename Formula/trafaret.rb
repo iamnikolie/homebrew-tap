@@ -5,21 +5,21 @@
 class Trafaret < Formula
   desc "Render one library of agent skills, agents and rules into many repos"
   homepage "https://github.com/iamnikolie/trafaret"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/iamnikolie/trafaret/releases/download/v0.2.0/trafaret_0.2.0_darwin_amd64.tar.gz"
-      sha256 "5e33e780c7c249e6f9552a9edc98f0da78bb0becb9cb6927c32cf3ca2d211941"
+      url "https://github.com/iamnikolie/trafaret/releases/download/v0.3.0/trafaret_0.3.0_darwin_amd64.tar.gz"
+      sha256 "e21cdd9de62b5c4fcc77faad60370eb03edb4550c76ad2884bdeb04bb4ef6ac4"
 
       define_method(:install) do
         bin.install "trafaret"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/iamnikolie/trafaret/releases/download/v0.2.0/trafaret_0.2.0_darwin_arm64.tar.gz"
-      sha256 "1d155cad8f6407ea828bf1b2fe833991836e89326648b8e7118cdf03204f16da"
+      url "https://github.com/iamnikolie/trafaret/releases/download/v0.3.0/trafaret_0.3.0_darwin_arm64.tar.gz"
+      sha256 "9c0533d8b042cf11bae5cc69e011465df2891f3e7fc97f63c5df8f93e9610a0c"
 
       define_method(:install) do
         bin.install "trafaret"
@@ -29,15 +29,15 @@ class Trafaret < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/iamnikolie/trafaret/releases/download/v0.2.0/trafaret_0.2.0_linux_amd64.tar.gz"
-      sha256 "f0f5c32d86eb486dd161288a1a12811fa934ca7be7bef8bfdd096dc16a8ad598"
+      url "https://github.com/iamnikolie/trafaret/releases/download/v0.3.0/trafaret_0.3.0_linux_amd64.tar.gz"
+      sha256 "1ec7b925d46c347ac55289b1692491eb96bf0cf39d2c7d067c8973a3f39580c3"
       define_method(:install) do
         bin.install "trafaret"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/iamnikolie/trafaret/releases/download/v0.2.0/trafaret_0.2.0_linux_arm64.tar.gz"
-      sha256 "f533c962b970e9c1222d36da5e3d24f1cbfac3d5bb7c3035cc9de0e27ab6a7b6"
+      url "https://github.com/iamnikolie/trafaret/releases/download/v0.3.0/trafaret_0.3.0_linux_arm64.tar.gz"
+      sha256 "92d7104e0cccd9cc3e2dd1e2b417ffb0d00b0fec74f8db97757090f6f6f9a391"
       define_method(:install) do
         bin.install "trafaret"
       end
