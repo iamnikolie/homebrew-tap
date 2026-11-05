@@ -5,23 +5,23 @@
 class Zmina < Formula
   desc "Long-lived Claude Code role sessions in tmux, kept up by a ticker, with one dispatcher that never sleeps"
   homepage "https://github.com/iamnikolie/zmina"
-  version "0.8.0"
+  version "0.9.0"
   license "MIT"
 
   depends_on "tmux"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/iamnikolie/zmina/releases/download/v0.8.0/zmina_0.8.0_darwin_amd64.tar.gz"
-      sha256 "fef5c9bffd3ec6031b1bc85790d314d9ae5603ed397cbee2250693275004af22"
+      url "https://github.com/iamnikolie/zmina/releases/download/v0.9.0/zmina_0.9.0_darwin_amd64.tar.gz"
+      sha256 "66ed62cdca74fb72434a640dffc1331773317f574a1578050127a13a43f449ad"
 
       define_method(:install) do
         bin.install "zmina"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/iamnikolie/zmina/releases/download/v0.8.0/zmina_0.8.0_darwin_arm64.tar.gz"
-      sha256 "d54da715e922fc19f27cd87b55fc3a4e504f6b3aa819d8a91d1768c0732f5570"
+      url "https://github.com/iamnikolie/zmina/releases/download/v0.9.0/zmina_0.9.0_darwin_arm64.tar.gz"
+      sha256 "89b4553ea0d4998d34f203838e769f9cef26a18055d69c6cf0eb942b0f3115f0"
 
       define_method(:install) do
         bin.install "zmina"
@@ -31,15 +31,15 @@ class Zmina < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/iamnikolie/zmina/releases/download/v0.8.0/zmina_0.8.0_linux_amd64.tar.gz"
-      sha256 "40c3ef8c2cb9a715f08d3ac716a3db377a2ddb5ab23c9bd310d1c2976d5c8c12"
+      url "https://github.com/iamnikolie/zmina/releases/download/v0.9.0/zmina_0.9.0_linux_amd64.tar.gz"
+      sha256 "7bd4cee402f2eda0d79fe3eb0b45382803c8fc7622e32f171eae5a65e735fb10"
       define_method(:install) do
         bin.install "zmina"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/iamnikolie/zmina/releases/download/v0.8.0/zmina_0.8.0_linux_arm64.tar.gz"
-      sha256 "8197f79411ff095974763cfa62c0d5bdecae72ec90861df5a60a95da486b5b28"
+      url "https://github.com/iamnikolie/zmina/releases/download/v0.9.0/zmina_0.9.0_linux_arm64.tar.gz"
+      sha256 "c55e9f7f092ea9bd620d13105eecd880dda3ec014b0bff6fb36c7b821cfcd061"
       define_method(:install) do
         bin.install "zmina"
       end
