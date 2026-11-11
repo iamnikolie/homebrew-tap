@@ -5,21 +5,21 @@
 class FiberyCli < Formula
   desc "CLI for Fibery — query, create, comment and attach from a shell"
   homepage "https://github.com/iamnikolie/fibery-cli"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/iamnikolie/fibery-cli/releases/download/v0.3.0/fibery-cli_0.3.0_darwin_amd64.tar.gz"
-      sha256 "765dc416f18b78b3b73761db15abea4f4f0b619521472b5b840826c9c3ee9cc1"
+      url "https://github.com/iamnikolie/fibery-cli/releases/download/v0.4.0/fibery-cli_0.4.0_darwin_amd64.tar.gz"
+      sha256 "83bceeb16665ed4019d4bba2b1015101f84583eda3365cf0feb6ee237ead2907"
 
       define_method(:install) do
         bin.install "fibery"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/iamnikolie/fibery-cli/releases/download/v0.3.0/fibery-cli_0.3.0_darwin_arm64.tar.gz"
-      sha256 "3315cdbd106e3e025b56e145500843491cd047ce16925d2bf12c76f43bd6143a"
+      url "https://github.com/iamnikolie/fibery-cli/releases/download/v0.4.0/fibery-cli_0.4.0_darwin_arm64.tar.gz"
+      sha256 "0edfd0dc14dab2390a049a3e03ffb40b8bd52f7a34f4f16629ced88f3371bd82"
 
       define_method(:install) do
         bin.install "fibery"
@@ -29,15 +29,15 @@ class FiberyCli < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/iamnikolie/fibery-cli/releases/download/v0.3.0/fibery-cli_0.3.0_linux_amd64.tar.gz"
-      sha256 "5e38c1ee7a04f24793ba358f3dc7b347b19c37b55ced60c3fd48fce8b65dc9b6"
+      url "https://github.com/iamnikolie/fibery-cli/releases/download/v0.4.0/fibery-cli_0.4.0_linux_amd64.tar.gz"
+      sha256 "42ef94ace33a38bc62325bbb85d02264ee8013cdb1711a748a05c56fd2495e7b"
       define_method(:install) do
         bin.install "fibery"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/iamnikolie/fibery-cli/releases/download/v0.3.0/fibery-cli_0.3.0_linux_arm64.tar.gz"
-      sha256 "caa98f65bfdcecb1d78996637b7c03a7bf9b1c307e6a95b506d935d4c856d3fa"
+      url "https://github.com/iamnikolie/fibery-cli/releases/download/v0.4.0/fibery-cli_0.4.0_linux_arm64.tar.gz"
+      sha256 "c41001dfc5b4ae0222f78b5f4fa3c2316dd8dd98a6e59a2cbad7b4d7fce422fe"
       define_method(:install) do
         bin.install "fibery"
       end
